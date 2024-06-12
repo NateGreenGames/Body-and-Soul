@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03504b42ed183464680cc74a0665e693, type: 3}
+  m_Name: Test0
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - sprite1: {fileID: 21300000, guid: 72cecf8fa2624284fb0e463df666b2fa, type: 3}
+    sprite2: {fileID: 0}
+    backgroundImage: {fileID: 0}
+    OnChangeSound:
+    - {fileID: 8300000, guid: b1ed5f7773bfaff4295452eaed3ecb59, type: 3}
+    animationToPlay: 
+    displaySpeakerName: 0
+    speakerName: Nate
+    mirrorSpeakerLabel: 0
+    displayDialogueBox: 0
+    dialogue: '"Wow Nate, this is really cool."'
+    talkingSpeed: 0.05
+    possibleDecisions: []
+  - sprite1: {fileID: 21300000, guid: 72cecf8fa2624284fb0e463df666b2fa, type: 3}
+    sprite2: {fileID: 21300000, guid: 72cecf8fa2624284fb0e463df666b2fa, type: 3}
+    backgroundImage: {fileID: 0}
+    OnChangeSound:
+    - {fileID: 0}
+    animationToPlay: 
+    displaySpeakerName: 1
+    speakerName: Nate
+    mirrorSpeakerLabel: 0
+    displayDialogueBox: 1
+    dialogue: '"Thanks Nate."'
+    talkingSpeed: 0.05
+    possibleDecisions: []
+  - sprite1: {fileID: 21300000, guid: 72cecf8fa2624284fb0e463df666b2fa, type: 3}
+    sprite2: {fileID: 21300000, guid: 72cecf8fa2624284fb0e463df666b2fa, type: 3}
+    backgroundImage: {fileID: 0}
+    OnChangeSound:
+    - {fileID: 0}
+    animationToPlay: 
+    displaySpeakerName: 1
+    speakerName: Nate
+    mirrorSpeakerLabel: 0
+    displayDialogueBox: 1
+    dialogue: '"Thanks Nate."'
+    talkingSpeed: 0.05
+    possibleDecisions: []
+  - sprite1: {fileID: 21300000, guid: 72cecf8fa2624284fb0e463df666b2fa, type: 3}
+    sprite2: {fileID: 21300000, guid: 72cecf8fa2624284fb0e463df666b2fa, type: 3}
+    backgroundImage: {fileID: 0}
+    OnChangeSound:
+    - {fileID: 0}
+    animationToPlay: 
+    displaySpeakerName: 1
+    speakerName: Nate
+    mirrorSpeakerLabel: 1
+    displayDialogueBox: 1
+    dialogue: '"Thanks Nate."'
+    talkingSpeed: 0.05
+    possibleDecisions:
+    - decisionText: How Dare you?
+      newDialoguePath: {fileID: 11400000, guid: f70805524c5ca10429b80ca5e3b74e26,
+        type: 2}
+      relationshipEffects:
+      - effectedCharacter: 1
+        friendshipChange: 1
+    - decisionText: Thanks Nate
+      newDialoguePath: {fileID: 11400000, guid: 09cb78975f81b6b49a2d0677626bcf61,
+        type: 2}
+      relationshipEffects: []
